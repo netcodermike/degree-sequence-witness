@@ -1,0 +1,38 @@
+{
+  "command": [
+    "dotnet",
+    "bin/Debug/net8.0/App.dll"
+  ],
+  "expected": {
+    "vertex_count": 6,
+    "graphical": true,
+    "reason": null,
+    "edge_count": 6,
+    "edges": [
+      {
+        "u": 0,
+        "v": 1
+      },
+      {
+        "u": 0,
+        "v": 2
+      },
+      {
+        "u": 0,
+        "v": 3
+      },
+      {
+        "u": 1,
+        "v": 2
+      },
+      {
+        "u": 1,
+        "v": 4
+      },
+      {
+        "u": 3,
+        "v": 4
+      }
+    ]
+  }
+}
